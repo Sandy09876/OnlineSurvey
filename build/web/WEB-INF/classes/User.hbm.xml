@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <class name="com.qdu.pojo.User" table="[User]">
+        <id name="userId" type="integer">
+            <column name="UserId" />
+        </id> 
+        <property name="userPassword" type="string">
+            <column name="UserPassword" />
+        </property>
+        <property name="userName" type="string">
+            <column name="UserName" />
+        </property> 
+        <property name="userGender" type="string">
+            <column name="UserGender" />
+        </property> 
+        <property name="userAge" type="integer">
+            <column name="UserAge" />
+        </property> 
+        <property name="userMobile" type="string">
+            <column name="UserMobile" />
+        </property> 
+    </class>
+</hibernate-mapping>
