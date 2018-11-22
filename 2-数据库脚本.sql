@@ -7,7 +7,7 @@ use  QDU
 
 
 
-create table User(
+create table [User](
 UserId int primary key,
 UserPassword nvarchar(15),
 UserName nvarchar(10),
@@ -17,7 +17,7 @@ UserMobile nvarchar(11)
 )
 go
 
-insert into User values
+insert into [User] values
 (001,'123456','Tom',N'ÄÐ',18,'13146498715'),
 (002,'123456','john',N'ÄÐ',20,'18765425678'),
 (003,'123456','lily',N'Å®',16,'18976543456'),
@@ -51,7 +51,7 @@ go
 
 
 
-select * from User
+select * from [User]
 
 select * from Manager
 
